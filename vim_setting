@@ -1,0 +1,37 @@
+# ~/.vimrc
+
+# 문법이 존재한다면 하이라이트 켜기
+if has("syntax")
+	syntax on
+endif
+# 검색 매칭되는 문자열 하이라이트
+set hlsearch
+# 라인 넘버 표시 
+set nu
+# 자동 들여쓰기
+set autoindent
+set cindent
+# tab 너비 설정
+# ts: 문서의 '\t' 값을 출력 시 몇개의 스페이스로 보여줄지
+# sts: tab 키를 눌렀을 때 몇개의 스페이스를 입력할지
+# shiftwidth: 자동 들여쓰기를 할 때 스페이스 값
+set ts=4
+set sts=4
+set shiftwidth=4
+# 짝이 되는 괄호 하이라이트
+set showmatch
+# 현재 커서 위치 출력
+set ruler
+# 인코딩 방식
+set fileencodings=utf8,euc-kr
+# 마지막으로 수정된 곳에 커서 위치
+au BufReadPost *
+\ if line("'\"") > 0 && line("'\"") <= line("$") |
+\ exe "norm g`\"" |
+\ endif
+# 명령어 히스토리 개수
+set history=1000
+# tab 자동완성 가능한 목록 출력
+set wmnu
+# 테마
+colorscheme jellybeans
