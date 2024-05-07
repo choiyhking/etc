@@ -8,6 +8,8 @@ endif
 set hlsearch
 # 라인 넘버 표시 
 set nu
+# 검색 시 대소문자 구분 안 함
+set ignorecase
 # 자동 들여쓰기
 set autoindent
 set cindent
@@ -18,6 +20,9 @@ set cindent
 set ts=4
 set sts=4
 set shiftwidth=4
+# 자동 설정
+set smartindent
+set smartcase
 # 짝이 되는 괄호 하이라이트
 set showmatch
 # 현재 커서 위치 출력
@@ -31,7 +36,7 @@ au BufReadPost *
 \ endif
 # 명령어 히스토리 개수
 set history=1000
-# tab 자동완성 가능한 목록 출력
-set wmnu
+# 자동완성 가능한 목록 출력
+set wildmenu
 # 테마
 colorscheme jellybeans
