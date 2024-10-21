@@ -1,5 +1,5 @@
 # vim_config
-- vim configuration
+vim configuration
 
 **How-to**
 - vim ~/.vimrc
