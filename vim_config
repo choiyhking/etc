@@ -7,7 +7,7 @@ endif
 set hlsearch
 
 " 라인 넘버 표시
-set nu
+"set nu
 
 " 검색 시 대소문자 구분 안 함
 set ignorecase
@@ -50,4 +50,6 @@ set history=1000
 set wildmenu
 
 " 테마 설정
-" colorscheme jellybeans
+"colorscheme jellybeans
+
+set mouse=a
