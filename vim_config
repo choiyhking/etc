@@ -51,5 +51,3 @@ set wildmenu
 
 " 테마 설정
 "colorscheme jellybeans
-
-set mouse=a
