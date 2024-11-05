@@ -6,6 +6,9 @@ endif
 " 검색 매칭되는 문자열 하이라이트
 set hlsearch
 
+" ESC 누르면 하이라이트 없어짐
+nnoremap <Esc> :nohlsearch<CR><Esc>
+
 " 라인 넘버 표시
 "set nu
 
@@ -46,8 +49,11 @@ au BufReadPost *
 " 명령어 히스토리 개수
 set history=1000
 
-" 자동완성 가능한 목록 출력
-set wildmenu
-
 " 테마 설정
 "colorscheme jellybeans
+
+" 항상 상태 표시줄을 표시
+set laststatus=2       
+
+" 상태 표시줄에 경로 및 파일명 표시
+set statusline=%F      
