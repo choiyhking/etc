@@ -30,3 +30,6 @@ set laststatus=2          " Always show the status line
 
 " File and buffer behavior
 set autoread              " Auto reload files if changed outside Vim
+
+" Restore cursor to last position when reopening a file
+autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
