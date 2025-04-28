@@ -3,7 +3,7 @@ set nocompatible          " Use Vim (not Vi) behavior
 syntax on                 " Enable syntax highlighting
 
 " Line numbers
-"set number                " Show absolute line numbers
+set number                " Show absolute line numbers
 
 " Tabs and indentation
 set tabstop=4             " A tab character is displayed as 4 spaces
