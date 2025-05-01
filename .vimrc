@@ -27,6 +27,7 @@ nnoremap <silent> <C-h> :nohlsearch<CR>
 set ruler                 " Show cursor position
 set showmatch             " Briefly jump to matching bracket
 set laststatus=2          " Always show the status line
+set cursorline            " Highlight the current line
 
 " File and buffer behavior
 set autoread              " Auto reload files if changed outside Vim
