@@ -12,7 +12,7 @@ set softtabstop=4         " Pressing Tab inserts 4 spaces
 set expandtab             " Use spaces instead of tabs
 set autoindent            " Copy indentation from current line
 set smartindent           " Smarter indentation for code
-set cindent               " C-style indentation
+"set cindent               " C-style indentation
 set smarttab              " Make Tab key smarter in insert mode
 
 " Search behavior
