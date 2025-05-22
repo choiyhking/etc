@@ -1,0 +1,239 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "down",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.10B260D2"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": 
+    [
+        {
+            "id": null,
+            "keys": "ctrl+shift+d"
+        },
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+8"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": null,
+            "keys": "enter"
+        },
+        {
+            "id": "Terminal.SwitchToTab7",
+            "keys": "ctrl+8"
+        },
+        {
+            "id": "Terminal.SwitchToTab6",
+            "keys": "ctrl+7"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+n"
+        },
+        {
+            "id": "User.splitPane.10B260D2",
+            "keys": "alt+minus"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+4"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+7"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+1"
+        },
+        {
+            "id": "Terminal.SwitchToTab5",
+            "keys": "ctrl+6"
+        },
+        {
+            "id": "Terminal.SwitchToTab1",
+            "keys": "ctrl+2"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+6"
+        },
+        {
+            "id": "Terminal.SwitchToTab4",
+            "keys": "ctrl+5"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+5"
+        },
+        {
+            "id": "Terminal.SwitchToTab3",
+            "keys": "ctrl+4"
+        },
+        {
+            "id": "Terminal.SwitchToTab2",
+            "keys": "ctrl+3"
+        },
+        {
+            "id": "Terminal.ClosePane",
+            "keys": "alt+d"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+3"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+2"
+        },
+        {
+            "id": "Terminal.OpenNewWindow",
+            "keys": "ctrl+n"
+        },
+        {
+            "id": "Terminal.SwitchToTab0",
+            "keys": "ctrl+1"
+        },
+        {
+            "id": "Terminal.DuplicatePaneRight",
+            "keys": "alt+\\"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+minus"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+plus"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+m"
+        },
+        {
+            "id": "Terminal.OpenNewTab",
+            "keys": "ctrl+t"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+t"
+        }
+    ],
+    "language": "ko",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Ottosson",
+            "font": 
+            {
+                "face": "Consolas"
+            }
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "font": 
+                {
+                    "face": "Consolas"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": true,
+                "name": "\uba85\ub839 \ud504\ub86c\ud504\ud2b8"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": true,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            }
+        ]
+    },
+    "schemes": [],
+    "themes": [],
+    "useAcrylicInTabRow": false
+}
